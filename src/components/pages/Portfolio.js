@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import MemoryCard from "../../images/memoryCardGame.png";
 import BRCdemo from "../../images/BRCdemo.png";
