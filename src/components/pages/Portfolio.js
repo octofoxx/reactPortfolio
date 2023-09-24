@@ -10,15 +10,15 @@ const projects = [
 
     { image: BRCdemo, altText: "display for battle horse game", description: "1st group project, a random generated horse battle game.", webLink: "https://tannerrhines.github.io/BerkeleyRacingClub/", repoLink: "https://github.com/TannerRhines/BerkeleyRacingClub" },
 
-    { image: horseCreate, altText: "horse character page display", description: "2nd group project, a DnD style horse character creator.", webLink: "https://horse-creator-app-9839a5a7a948.herokuapp.com/", repoLink: "https://github.com/Veladare/Horse_creator" }
+    { image: horseCreate, altText: "horse character page display", description: "2nd group project, a DnD style horse character creator.", webLink: "https://horse-creator-app-9839a5a7a948.herokuapp.com/", repoLink: "https://github.com/Veladare/Horse_creator" },
 ];
 
 export default function Portfolio() {
     return (
         <div>
-            <section className="gallery">
-                <div className="container-xxl">
-                    <div className="row gy-4">
+            <section>
+                <div className="columns is-multiline">
+                    <div className="column is-half">
                         {projects.map((project, index) => (
                             <Project
                                 key={index}

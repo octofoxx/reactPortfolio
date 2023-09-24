@@ -1,6 +1,6 @@
 import React from "react";
-
-import NavBar from "./navBar";
+import "./header.css"
+import NavBar from "../navBar";
 
 export default function header ({ currentPage, setCurrentPage}) {
     return (

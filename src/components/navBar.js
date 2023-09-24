@@ -1,9 +1,10 @@
 import React from 'react';
+import "../components/Header/header.css"
 
 function navBar({ currentPage, setCurrentPage }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav nav-item">
         <a
           href="#about"
           onClick={() => setCurrentPage('About')}
@@ -13,8 +14,8 @@ function navBar({ currentPage, setCurrentPage }) {
           About
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li className=" nav nav-item">
+        <a 
           href="#portfolio"
           onClick={() => setCurrentPage('Portfolio')}
 
@@ -23,7 +24,7 @@ function navBar({ currentPage, setCurrentPage }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav nav-item">
         <a
           href="#contact"
 
