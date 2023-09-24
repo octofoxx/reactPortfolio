@@ -1,12 +1,12 @@
 import React from 'react';
 
-function navBar({ currentPage, handlePageChange }) {
+function navBar({ currentPage, setCurrentPage }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
+          onClick={() => setCurrentPage('About')}
         
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
@@ -16,7 +16,7 @@ function navBar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
+          onClick={() => setCurrentPage('Portfolio')}
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
@@ -27,7 +27,7 @@ function navBar({ currentPage, handlePageChange }) {
         <a
           href="#contact"
 
-          onClick={() => handlePageChange('Contact')}
+          onClick={() => setCurrentPage('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
