@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import PortfolioContainer from "./components/portfolioContainer"
+import "./app.css";
 
 const App = () => {
     const [currentPage, setCurrentPage] = useState("About");

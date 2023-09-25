@@ -1,0 +1,37 @@
+/*saved preset colors to use with variables*/
+:root {
+    --dark: #154360;
+    --piping: #7D3C98;
+    --light: #fff;
+    --darker: black;
+  }
+  
+  body {
+    background-color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--light);
+    background-image: url(./images/wp2343900-synthwave-wallpapers.png);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--darker);
+    margin-left: 25px;
+    outline: 5px inset var(--piping);
+  }
+  
+  nav li::before {
+    content: "🎶";
+  }
+  
+  nav li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }

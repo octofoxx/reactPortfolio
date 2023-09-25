@@ -5,7 +5,7 @@ import pfp from "../../../images/pfp2.jpg"
 export default function About() {
   return (
     <div style={{textAlign: 'center'}}>
-      <h1>About Page</h1>
+      <h1 id='pageMain'>About Page</h1>
       <img src={pfp} alt='the developer of this site' style={{alignItems:'center', maxWidth:'200px',maxHeight:'200px'}}></img>
       <p>
                 I am a soon to be graduate of the UC Berkeley full-stack coding boot camp course. Through this course I
