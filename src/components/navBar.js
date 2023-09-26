@@ -2,7 +2,7 @@ import React from 'react';
 
 function navBar({ currentPage, setCurrentPage }) {
   return (
-      <ul>
+      <ul id='nav'>
         <li>
           <a
             href="#about"

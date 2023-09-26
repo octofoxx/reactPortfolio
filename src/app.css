@@ -14,7 +14,7 @@
     background-image: url(./images/wp2343900-synthwave-wallpapers.png);
 }
 
-nav {
+#nav {
     display: flex;
     justify-content: flex-end;
     padding-top: 25px;
@@ -23,15 +23,15 @@ nav {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    background-color: var(--darker);
+   
     margin-left: 25px;
-    outline: 5px inset var(--piping);
+  
   }
   
-  nav li::before {
+  #nav li::before {
     content: "🎶";
   }
   
-  nav li:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  #nav li:hover {
+    background-color: rgba(39, 36, 36, 0.456);
   }
