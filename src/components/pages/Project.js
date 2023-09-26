@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project ({ image, altText, description, webLink, repoLink}) {
     return (
-        <div className='card' style={{padding:'20px'}}>
+        <div className='card' style={{padding:'10px', margin:'10px'}}>
             <div className='card-image'>
             <figure className='image is-4'>
             <a href={webLink}>
