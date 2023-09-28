@@ -33,6 +33,16 @@ function navBar({ currentPage, setCurrentPage }) {
             Contact
           </a>
         </li>
+        <li>
+          <a
+            href="#resume"
+
+            onClick={() => setCurrentPage('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >
+            Resume
+          </a>
+        </li>
       </ul>
   );
 }

@@ -1,0 +1,14 @@
+.button{
+    border:solid;
+    background-color: rgb(63, 28, 97);
+    border-radius: 30px;
+    display: block;
+    font-size: 50px;
+    margin: 15px 450px 100px 520px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+}

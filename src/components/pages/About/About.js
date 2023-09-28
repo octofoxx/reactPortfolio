@@ -24,6 +24,8 @@ export default function About() {
         In my personal time I love to play video games, try new foods and go out with friends for cocktails. I
         tend to lead a quiet life and enjoy just hanging out around my home.
       </p>
+
+      <a href="../../images/resume.pdf" download>Download CV</a>
     </div>
   );
 }
