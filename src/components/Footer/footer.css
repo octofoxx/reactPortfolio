@@ -10,15 +10,20 @@
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-around;
-    text-decoration: none;
     color: var(--light);
     font-style: italic;
     font-weight: bold;
-    padding-top: 75px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-style: groove;
 }
 
-.contact:hover {
+.contact a:hover {
     animation: synth 2s infinite;
+}
+
+.contact a{
+    color: var(--light);
 }
 
 .contact a:hover {
@@ -28,16 +33,6 @@
 footer {
     text-align: center;
     font-style: italic;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
 }
 
 @keyframes synth {

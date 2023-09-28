@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./pages/About/About";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
 
 export default function Project ({ currentPage, setCurrentPage}) {
