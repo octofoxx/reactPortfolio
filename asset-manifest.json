@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.ea838f2a.css",
-    "main.js": "/reactPortfolio/static/js/main.e04166c9.js",
+    "main.js": "/reactPortfolio/static/js/main.2a2159e6.js",
     "static/media/horseCreate.png": "/reactPortfolio/static/media/horseCreate.b1c086ca9ba2a08e2290.png",
     "static/media/wp2343900-synthwave-wallpapers.png": "/reactPortfolio/static/media/wp2343900-synthwave-wallpapers.b630455d638928fb78a5.png",
     "static/media/BRCdemo.png": "/reactPortfolio/static/media/BRCdemo.309d6431e9ceaafad4c0.png",
     "static/media/pfp2.jpg": "/reactPortfolio/static/media/pfp2.d19cb8ff8cfa0d8e8ca0.jpg",
     "static/media/memoryCardGame.png": "/reactPortfolio/static/media/memoryCardGame.d543d139094f638d73f6.png",
     "static/media/resume.pdf": "/reactPortfolio/static/media/resume.153ce0c3dc13f6b1874b.pdf",
+    "static/media/blogSite.png": "/reactPortfolio/static/media/blogSite.7d00bf084aafa6807d03.png",
+    "static/media/weatherApp.png": "/reactPortfolio/static/media/weatherApp.1020498824eb7a137e80.png",
+    "static/media/multiQuiz.png": "/reactPortfolio/static/media/multiQuiz.bd4815cd879037c19fc6.png",
     "index.html": "/reactPortfolio/index.html",
     "main.ea838f2a.css.map": "/reactPortfolio/static/css/main.ea838f2a.css.map",
-    "main.e04166c9.js.map": "/reactPortfolio/static/js/main.e04166c9.js.map"
+    "main.2a2159e6.js.map": "/reactPortfolio/static/js/main.2a2159e6.js.map"
   },
   "entrypoints": [
     "static/css/main.ea838f2a.css",
-    "static/js/main.e04166c9.js"
+    "static/js/main.2a2159e6.js"
   ]
 }
