@@ -25,7 +25,6 @@ export default function About() {
         tend to lead a quiet life and enjoy just hanging out around my home.
       </p>
 
-      <a href="../../images/resume.pdf" download>Download CV</a>
     </div>
   );
 }

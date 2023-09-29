@@ -34,6 +34,8 @@
   
  https://github.com/octofoxx/reactPortfolio -repo
 
+ https://octofoxx.github.io/reactPortfolio/ - deployed site
+
 ## [Tests](#table-of-contents)
   
   No testing suite utilized.
