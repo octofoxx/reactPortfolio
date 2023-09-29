@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.ea838f2a.css",
+    "main.js": "/reactPortfolio/static/js/main.e04166c9.js",
+    "static/media/horseCreate.png": "/reactPortfolio/static/media/horseCreate.b1c086ca9ba2a08e2290.png",
+    "static/media/wp2343900-synthwave-wallpapers.png": "/reactPortfolio/static/media/wp2343900-synthwave-wallpapers.b630455d638928fb78a5.png",
+    "static/media/BRCdemo.png": "/reactPortfolio/static/media/BRCdemo.309d6431e9ceaafad4c0.png",
+    "static/media/pfp2.jpg": "/reactPortfolio/static/media/pfp2.d19cb8ff8cfa0d8e8ca0.jpg",
+    "static/media/memoryCardGame.png": "/reactPortfolio/static/media/memoryCardGame.d543d139094f638d73f6.png",
+    "static/media/resume.pdf": "/reactPortfolio/static/media/resume.153ce0c3dc13f6b1874b.pdf",
+    "index.html": "/reactPortfolio/index.html",
+    "main.ea838f2a.css.map": "/reactPortfolio/static/css/main.ea838f2a.css.map",
+    "main.e04166c9.js.map": "/reactPortfolio/static/js/main.e04166c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea838f2a.css",
+    "static/js/main.e04166c9.js"
+  ]
+}
